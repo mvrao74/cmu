@@ -55,7 +55,7 @@ function App() {
         </p>
         <p lang="en-US" className="western" style={{marginBottom: '0cm', lineHeight: '100%'}}>
           <font face="Arial, sans-serif"><font size={2} style={{fontSize: '11pt'}}><span lang="fr-FR">Raj
-                Reddy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lee Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vic Lesser</span></font></font></p>
+                Reddy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lee Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vic Lesser</span></font></font></p>
         <p lang="fr-FR" className="western" style={{marginRight: '-0.79cm', marginBottom: '0cm', lineHeight: '100%'}}>
           <br />
         </p>

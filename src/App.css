@@ -7,15 +7,28 @@
   pointer-events: none;
 }
 
-.maindiv {
-  
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {  
+  .maindiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+    }
+ }
+
+ @media only screen and (min-width: 960px){  
+  .maindiv {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
-   
-    
-}
+    padding-bottom: 50px;    
+    }
+ }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
