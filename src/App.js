@@ -4,7 +4,7 @@ import img from './img.png';
 
 function App() {
   return (
-      <div>
+      <div className="maindiv">
         <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
         <title> </title>
         <meta name="generator" content="LibreOffice 6.0.7.3 (Linux)" />
@@ -45,7 +45,7 @@ function App() {
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
           <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">The first demonstration of a working Speech Understanding System happened at Carnegie Mellon in 1972 using the task domain of Voice Chess, led by the team of Raj Reddy, Lee Erman, and Victor Lesser. This event was memorialized in the Hearsay video, with a video recording of Lee Erman saying “Pawn to Queen Four”</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">We cordially invite you to join us at CMU on Oct 14,2022, when we celebrate the 50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif"> anniversary of that demonstration of the first working Speech Understanding System and to celebrate the important contribution of the ARPA SUR program under the leadership of Cordell Green and Steve Crocker. Further details will be available on </font></font><font color="#0000ff"><u><a href="http://www.P2Q4.org/"><font face="Arial, sans-serif">www.P2Q4.org</font></a></u></font><font color="#000000"><font face="Arial, sans-serif">
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">We cordially invite you to join us at CMU on Oct 14, 2022, when we celebrate the 50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif"> anniversary of that demonstration of the first working Speech Understanding System and to celebrate the important contribution of the ARPA SUR program under the leadership of Cordell Green and Steve Crocker. Further details will be available on </font></font><font color="#0000ff"><u><a href="http://www.P2Q4.org/"><font face="Arial, sans-serif">www.P2Q4.org</font></a></u></font><font color="#000000"><font face="Arial, sans-serif">
               </font></font></font>
         </p>
         <p lang="en-US" className="western" style={{marginBottom: '0cm', lineHeight: '100%'}}>
