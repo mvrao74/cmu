@@ -1,7 +1,7 @@
 import img from './img.png'
 export default function Navbar(){
     return(
-        <div>
+        <div style={{fontFamily : 'western'}}>
             <img src={img} name="Image1" align="bottom" width={215} height={35} border={0} />
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
