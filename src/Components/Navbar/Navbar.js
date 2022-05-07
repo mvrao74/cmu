@@ -17,7 +17,7 @@ export default function Navbar(){
                     <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Apra_Internet">ARPA/Internet</a>
+                    <a class="nav-link" href="/Apra_Internet">DARPA/Internet</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Videos">Videos</a>
