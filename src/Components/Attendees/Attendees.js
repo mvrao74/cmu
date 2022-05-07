@@ -5,7 +5,7 @@ export default function Attendees()
     return(
         <div className="maindiv">
             <Navbar/>
-            <div className="container">
+            <div className="container" style={{fontFamily : 'western'}}>
                 <br></br>
                 <h3>Intentionally left blank and will be updated soon.</h3>
                 <br></br>

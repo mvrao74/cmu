@@ -5,7 +5,7 @@ export default function Videos()
     return(
         <div className="maindiv">
             <Navbar/>
-            <div className="container">
+            <div className="container" style={{fontFamily : 'western'}}>
                     <br></br>
                     <h3>Hearsay</h3>
                     <div class="embed-responsive embed-responsive-16by9">
