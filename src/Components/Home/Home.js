@@ -25,9 +25,9 @@ export default function Home()
           <p lang="en-US" className="western" style={{marginBottom: '-0.6cm', lineHeight: '100%'}}>
           </p></div> */}
         <p />
-        <br/>
+        {/* <br/> */}
         <p lang="en-US" className="western" align="center" style={{marginBottom: '0cm', lineHeight: '100%'}}>
-          <font face="Arial, sans-serif"><font size={2} style={{fontSize: '11pt'}}><b>Invitation to P2Q4 Symposium, Oct 14, 2022, Wean Hall 5324, Carnegie Mellon University</b></font></font></p>
+          <font face="Arial, sans-serif"><font size={2} style={{fontSize: '11pt'}}><b>Invitation to P2Q4 Symposium,<p/>Oct 14, 2022, Wean Hall 5324, Carnegie Mellon University</b></font></font></p>
         <p lang="en-US" align="center" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
           <font color="#000000"><font face="Times New Roman, serif"><font face="Arial, sans-serif"><font size={5} style={{fontSize: '18pt'}}>“Pawn to Queen Four”<br /><p/>
                 </font></font></font><font color="#000000"><font face="Arial, sans-serif">50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif">
