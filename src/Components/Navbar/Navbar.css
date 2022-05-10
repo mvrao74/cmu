@@ -1,4 +1,15 @@
 #navbarTogglerDemo01
 {
-    margin-left: 33%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+#Image1
+{
+    margin-top: 0.8em;
+}
+#nav_container
+{
+    background-color: transparent;
 }

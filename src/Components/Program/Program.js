@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar"
 
-export default function Attendees()
+export default function Program()
 {
     return(
         <div className="maindiv">
