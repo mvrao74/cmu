@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar"
-import arpa from './ARPA.pdf'
-import sur from './SUR.pdf'
+import arpa from '../../Files/ARPA.pdf'
+import sur from '../../Files/SUR.pdf'
 
 export default function Historical_Documents()
 {
