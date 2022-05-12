@@ -3,6 +3,7 @@ import Home from './Components/Home/Home';
 import Videos from './Components/Videos/Videos';
 import Program from "./Components/Program/Program";
 import Historical_Documents from "./Components/Historical_Documents/Historical_Documents";
+import Registrations from "./Components/Registrations/Registrations";
 import './App.css'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       { path: "/", element: <Home /> },
       { path: "/Videos", element: <Videos /> },
       { path: "/Program", element: <Program /> },
-      { path: "/Historical_Documents", element: <Historical_Documents /> }
+      { path: "/Historical_Documents", element: <Historical_Documents /> },
+      { path: "/Registrations", element: <Registrations /> }
     ]);
     return routes;
   };
