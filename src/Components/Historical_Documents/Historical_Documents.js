@@ -1,5 +1,5 @@
 import Navbar from "../Navbar/Navbar"
-import arpa from './Review of the ARPA Speech Understanding Project.pdf'
+import arpa from './ARPA.pdf'
 import sur from './SUR.pdf'
 
 export default function Historical_Documents()
