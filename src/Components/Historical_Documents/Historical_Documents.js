@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar"
 import arpa from '../../Files/ARPA.pdf'
 import sur from '../../Files/SUR.pdf'
+import Arpa from "../DisplayLinks/Arpa"
 
 export default function Historical_Documents()
 {
@@ -18,8 +19,9 @@ export default function Historical_Documents()
                 <h5>Click to download the report &nbsp;<a href={sur}  download><button className="btn btn-outline-secondary">Download</button></a></h5>
                 
                 <br/>
-                <h4>Review of the ARPA Speech Understanding Project by <br/>Dennis Klatt, JASA, 1345-1366, 1977</h4>
-                <h5>Link to the&nbsp;<a href={arpa} target={"_blank"}>Report</a></h5>
+                <h4>Review of the ARPA Speech Understanding Project</h4>
+                {/* <h5>Link to the&nbsp;<a href={arpa} target={"_blank"}>Report</a></h5> */}
+                <h5><Arpa/></h5>
                 <h5>Click to download the report &nbsp;<a href={arpa}  download><button className="btn btn-outline-secondary">Download</button></a></h5>
                 
                 <br></br>
