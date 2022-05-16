@@ -33,16 +33,34 @@ export default function Home()
                 </font></font></font><font color="#000000"><font face="Arial, sans-serif">50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif">
                 Anniversary Symposium of The Beginning of Speech Understanding<br></br>and the Transition from Speech Recognition to Speech Understanding</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">In 1971, a committee headed by Allen Newell proposed a 5-year research effort towards the demonstration of a large vocabulary, connected speech understanding system. The Harpy and Hearsay systems demonstrated at CMU in 1976 not only satisfied these goals but exceeded some of the objectives.</font></font></font>
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">We cordially invite you to join us at CMU on Oct 14, 2022, when we celebrate the 50th anniversary
+of the first working Speech Understanding System demonstration and the 50 years of Speech
+Research at Carnegie Mellon University.</font></font></font>
         </p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">At ARPA Cordell Green crafted a unique multi-institution research model that has proved to be very effective in organizing large-scale research efforts toward a clearly specified long-term goal.  Green was followed by Steve Crocker who oversaw the first few years of the program.</font></font></font></p>
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">The first demonstration of a working Speech Understanding System happened at Carnegie Mellon
+in 1972 using the task domain of Voice Chess, led by the team of Raj Reddy, Lee Erman, and Victor
+Lesser. This event was memorialized in the Hearsay video, with a video recording of Lee Erman
+saying “Pawn to Queen Four.” This demo showed the plausibility of building a large vocabulary,
+connected speech understanding system.</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">In this case, 5 institutions were each charged with demonstrating a working system within 5 years satisfying the research goals laid out in the Newell report. In this model of co-opetition, the annual review meetings and presentations ensured the open sharing of ideas among the institutions.&nbsp;&nbsp;</font></font></font></p>
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">In 1971, a committee headed by Allen Newell proposed a 5-year research effort toward the
+demonstration of such a system. Based on this report, Cordell Green at DARPA crafted a unique
+multi-institution research model that has proved to be very effective in organizing large-scale
+research efforts toward a clearly specified long-term goal. Green was followed by Steve Crocker
+who oversaw the first few years of the program.&nbsp;&nbsp;</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">The first demonstration of a working Speech Understanding System happened at Carnegie Mellon in 1972 using the task domain of Voice Chess, led by the team of Raj Reddy, Lee Erman, and Victor Lesser. This event was memorialized in the Hearsay video, with a video recording of Lee Erman saying “Pawn to Queen Four”</font></font></font></p>
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">In this case, 5 institutions were each charged with demonstrating a working system within 5 years
+satisfying the research goals laid out in the Newell report. In this model of co-opetition, the annual
+review meetings and presentations ensured the open sharing of ideas among the institutions. The
+Harpy and Hearsay systems developed at CMU not only satisfied these goals but exceeded some
+of the objectives in 1976 at the end of the DARPA program. Building on this work and inventing
+many new paths, CMU has been at the forefront of speech understanding research for now over 50
+years.</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
-          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">We cordially invite you to join us at CMU on Oct 14, 2022, when we celebrate the 50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif"> anniversary of the demonstration of the first working Speech Understanding System and the 50 years of Speech Research at Carnegie Mellon University.  It is expected that the 1-day symposium and celebration will include short talks and recollections of many of the key participants in this journey and a reception and banquet in the evening. Please visit the </font></font><font color="#0000ff"><u><a href="http://www.p2q4.org/"><font face="Arial, sans-serif">www.p2q4.org</font></a></u></font><font color="#000000"><font face="Arial, sans-serif"> website and register to attend.
+          <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">The 1-day symposium and celebration will include short talks and recollections of many of the key
+participants at CMU in this 50-year journey and a reception and banquet in the evening. Please visit
+the </font></font><font color="#0000ff"><u><a href="http://www.p2q4.org/"><font face="Arial, sans-serif">www.p2q4.org</font></a></u></font><font color="#000000"><font face="Arial, sans-serif"> 
               </font></font></font>
         </p>
         <p lang="en-US" className="western" style={{marginBottom: '0cm', lineHeight: '100%'}}>
