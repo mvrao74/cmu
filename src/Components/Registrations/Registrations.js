@@ -1,7 +1,7 @@
 import Navbar from "../Navbar/Navbar"
 import { useState } from 'react';
-import Registrationscsv from './Registrations.csv'
 import './Registrations.css'
+import { useNavigate } from "react-router-dom";
 
 export default function Registrations()
 {
@@ -9,30 +9,35 @@ export default function Registrations()
     const [fname, setFname] = useState("")
     const [lname, setLname] = useState("")
     const [phone, setPhone] = useState("")
-                                         
-    const handleSubmit= (e) => { 
-        console.log(email,fname,lname,phone)
-        e.preventDefault();
-        const data = email+", "+fname+", "+lname+", "+phone+"\n"
-        // const fs = require('fs');
-        // fs.appendFileSync({Registrationscsv}, data);
-        // const requestOptions = {
-        // method: 'POST',
-        // headers: { 'Content-Type': 'application/json' },
-        // body: JSON.stringify({"for" : "student",
-        //                       "email" : email,
-        //                       "fname" : fname,
-        //                       "lname" : lname,
-        //                       "phone" : phone,
-        //                       "qd" : qd,
-        //                       "year" : year,
-        //                       "status" : status})
-        // };
-        // fetch('http://127.0.0.1:5000/', requestOptions)
-        // .then(response => response.json())
-        // .then(resp => console.log(resp))
-      }
+    let navigate = useNavigate();
 
+    const handleSubmit= (e) => { 
+        // console.log(email,fname,lname,phone)
+        e.preventDefault();
+        const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({"method" : "POST",
+                              "email" : email,
+                              "fname" : fname,
+                              "lname" : lname,
+                              "phone" : phone})
+        };
+        fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
+        .then(response => response.json())
+        .then(resp => {
+            if(resp.statusCode == 200)
+            {
+                let path = `Acknowledgement`; 
+                navigate(path);
+            }
+            else
+            {
+
+            }
+        })
+    }
+      
     return(
         <div className="maindiv">
             <Navbar/>
@@ -70,7 +75,7 @@ export default function Registrations()
             <div className="button">
             <button type="submit" className="btn btn-secondary">Register</button>
             </div> 
-            <label>Files marked with * are mandatory.</label>   
+            <label>Fields marked with * are mandatory.</label>   
             </form>
     </div>
         </div>

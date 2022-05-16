@@ -27,9 +27,9 @@ export default function Navbar(){
                     <li class="nav-item active">
                         <a class="nav-link" href="/Registrations">Register Here</a>
                     </li>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                         <a class="nav-link" href="/Registered">Registered</a>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
                 </nav>

@@ -5,6 +5,7 @@ import Program from "./Components/Program/Program";
 import Historical_Documents from "./Components/Historical_Documents/Historical_Documents";
 import Registrations from "./Components/Registrations/Registrations";
 import Registered from "./Components/Registered/Registered";
+import Acknowledgement from "./Components/Acknowledgement/Acknowledgement";
 import sur from './Files/SUR.pdf'
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
       { path: "/Historical_Documents", element: <Historical_Documents /> },
       { path: "/Registrations", element: <Registrations /> },
       { path : "/Registered", element: <Registered/>},
+      { path : "/Registrations/Acknowledgement", element: <Acknowledgement/>},
       {path : "/SUR.pdf", element : {sur}}
     ]);
     return routes;
