@@ -43,7 +43,7 @@ export default function Registrations()
             
         
             <div className="form-group">
-            <label>Email Address <span>*</span></label>
+            <label>Email Address<span>*</span></label>
             <input type="email" className="form-control" required onChange={e => setEmail(e.target.value)}></input>
             </div>
             <br/>
@@ -66,9 +66,11 @@ export default function Registrations()
             <input type="text" className="form-control" required onChange={e => setPhone(e.target.value)}></input>
             </div>
             <br/>
+           
             <div className="button">
-            <button type="submit" className="btn btn-secondary">Apply Now</button>
+            <button type="submit" className="btn btn-secondary">Register</button>
             </div> 
+            <label>Files marked with * are mandatory.</label>   
             </form>
     </div>
         </div>
