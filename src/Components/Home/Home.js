@@ -31,7 +31,7 @@ export default function Home()
         <p lang="en-US" align="center" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
           <font color="#000000"><font face="Times New Roman, serif"><font face="Arial, sans-serif"><font size={5} style={{fontSize: '18pt'}}>“Pawn to Queen Four”<br /><p/>
                 </font></font></font><font color="#000000"><font face="Arial, sans-serif">50</font></font><font color="#000000"><sup><font face="Arial, sans-serif"><font size={1} style={{fontSize: '7pt'}}>th</font></font></sup></font><font color="#000000"><font face="Arial, sans-serif">
-                Anniversary Symposium of The Beginning of Speech Understanding<br></br>and the Transition from Speech Recognition to Speech Understanding</font></font></font></p>
+                Anniversary Symposium of The Beginning of Speech Understanding</font></font></font></p>
         <p lang="en-US" style={{marginTop: '0.42cm', marginBottom: '0.42cm', lineHeight: '100%'}}>
           <font face="Times New Roman, serif"><font color="#000000"><font face="Arial, sans-serif">We cordially invite you to join us at CMU on Oct 14, 2022, when we celebrate the 50th anniversary
 of the first working Speech Understanding System demonstration and the 50 years of Speech

@@ -22,8 +22,10 @@ export default function Historical_Documents()
                 <h4>Review of the ARPA Speech Understanding Project</h4>
                 <h5>Link to the&nbsp;<a href="https://drive.google.com/file/d/1N7ClDctx3xb9sNPHbuKdAhfOqky2iSMG/view?usp=sharing" target={"_blank"}>Report</a></h5>
                 
+                <br/>
                 {/* <h5>Click to download the report &nbsp;<a href={arpa}  download><button className="btn btn-outline-secondary">Download</button></a></h5> */}
-                
+                <h4>Reflections on being an AI System Architect : Victor Lesser</h4>
+                <h5>Link to the&nbsp;<a href="https://drive.google.com/file/d/1cNZP7B5KyJFferORWvv1KilD_PTbPqMB/view?usp=sharing" target={"_blank"}>Report</a></h5>
                 <br></br>
             </div>
         </div>
