@@ -6,3 +6,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.speakers
+{
+    display: flex;
+    justify-content: space-evenly;
+}

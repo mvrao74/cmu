@@ -41,6 +41,9 @@ export default function Registrations()
     return(
         <div className="maindiv">
             <Navbar/>
+            <div className="flex_container" style={{fontFamily : 'western'}}>
+                <div><h4>P2Q4 Symposium</h4></div>
+            </div>
             <div className = "form-bg">
 
             <form className='form'onSubmit={e => {handleSubmit(e)}}>

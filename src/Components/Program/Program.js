@@ -30,6 +30,11 @@ export default function Program()
                             <td>1020</td>
                             <td>1220</td>
                             <td>Recollections of Early Pioneers: 1970s (Chair: Roni Rosenfeld)<br/>
+                            {/* <div className="speakers">
+                                <div>Erman Mark Fox</div>
+                                <div>Lesser Jack Mostow</div>
+                                <div></div>
+                            </div> */}
                             Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lesser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jim Baker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Janet Baker<br/>
                             Mark Fox&nbsp;&nbsp;&nbsp;Jack Mostow(?)&nbsp;&nbsp;Henry Goldberg(?)</td>
                         </tr>
