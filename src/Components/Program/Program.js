@@ -30,7 +30,8 @@ export default function Program()
                             <td>1020</td>
                             <td>1220</td>
                             <td>Recollections of Early Pioneers: 1970s (Chair: Roni Rosenfeld)<br/>
-                            Erman Lesser Jim Baker Janet BakerMark Fox Jack Mostow(?) Henry Goldberg(?)</td>
+                            Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lesser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jim Baker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Janet Baker<br/>
+                            Mark Fox&nbsp;&nbsp;&nbsp;Jack Mostow(?)&nbsp;&nbsp;Henry Goldberg(?)</td>
                         </tr>
 
                         <tr>
@@ -42,9 +43,9 @@ export default function Program()
                         <tr>
                             <td>1330</td>
                             <td>1500</td>
-                            <td>Recollections of CMU Speech Group: 1980s (Chair: Rich Stern)
-                                Stern		Rudnicky	Roni Rosenfeld
-                                Bisiani		Cole 			Ward
+                            <td>Recollections of CMU Speech Group: 1980s (Chair: Rich Stern)<br/>
+                                Stern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rudnicky&nbsp;&nbsp;&nbsp;&nbsp;Roni Rosenfeld<br/>
+                                Bisiani&nbsp;&nbsp;&nbsp;Cole&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ward<br/>
                                 xxx	xxx	xxx	</td>
                         </tr>
 
@@ -52,7 +53,8 @@ export default function Program()
                             <td>1500</td>
                             <td>1620</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
-                                xxx	xxx	xxx	
+                                <br/>
+                                xxx	xxx	xxx	<br/>
                                 xxx	xxx	xxx	</td>
                         </tr>
 
@@ -66,15 +68,15 @@ export default function Program()
                             <td>1640</td>
                             <td>1800</td>
                             <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Cair: Harry Shum?)
-		KaiFu Lee, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon etc</td>
+                                <br/>KaiFu Lee, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon etc</td>
                         </tr>
 
                         <tr>
                             <td>1800</td>
                             <td>2100</td>
-                            <td>Reception and Dinner	Perlis Atrium (Chair: Reddy)
-		Comments by President, Provost and SCS Dean
-		DARPA’s Impact – Vint Cerf</td>
+                            <td>Reception and Dinner	Perlis Atrium (Chair: Reddy)<br/>
+                                Comments by President, Provost and SCS Dean<br/>
+                                DARPA’s Impact – Vint Cerf</td>
                         </tr>
                     </tbody>
                 </table>
