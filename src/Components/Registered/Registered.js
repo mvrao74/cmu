@@ -37,6 +37,7 @@ export default function Registered()
         <div className="maindiv">
             <Navbar/>
             <div className="container" style={{fontFamily : 'western'}}>
+                <br/>
             <div className="table-responsive-sm">
                 <table className="table">
                 <thead>
@@ -44,11 +45,12 @@ export default function Registered()
                         <th>First Name</th>
                         <th>Last Name </th>
                         <th>Email Address</th>
+                        <th>Phone Number</th>
                     </tr>
                 </thead>
                 <tbody>
                      {rows.map((val,key) => 
-                        <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td></tr>)}
+                        <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td><td>{val[3]}</td></tr>)}
                 </tbody>                
             </table>
             </div>

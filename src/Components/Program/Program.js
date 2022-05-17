@@ -12,7 +12,7 @@ export default function Program()
                 <div><h4>NSH 13xx</h4></div>
                 <div><h4><a href="https://www.p2q4.org/">https://www.p2q4.org/</a></h4></div>
             </div>
-            <div className="table-responsive-sm">
+            <div className="table-responsive-sm" style={{fontFamily : 'western'}}>
                 <table className="table">
                     <tbody>
                         <tr>
