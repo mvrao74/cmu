@@ -36,9 +36,9 @@ export default function Registered()
     return(
         <div className="maindiv">
             <Navbar/>
-            <div className="container" style={{fontFamily : 'western'}}>
+            <div className="container">
                 <br/>
-            <div className="table-responsive-sm">
+            <div className="table-responsive-sm table-borderless">
                 <table className="table">
                 <thead>
                     <tr>

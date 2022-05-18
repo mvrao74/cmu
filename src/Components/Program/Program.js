@@ -6,13 +6,12 @@ export default function Program()
         <div className="maindiv">
             <Navbar/>
             <br/>
-            <div className="flex_container" style={{fontFamily : 'western'}}>
-                <div><h4>Tentative P2Q4 Symposium Program</h4></div>
-                <div><h4>Oct 14, 2022</h4></div>
-                <div><h4>NSH 13xx</h4></div>
-                <div><h4><a href="https://www.p2q4.org/">https://www.p2q4.org/</a></h4></div>
-            </div>
-            <div className="table-responsive-sm" style={{fontFamily : 'western'}}>
+            <div className="flex_container">
+                    <div><h4>Tentative P2Q4 Symposium Program</h4></div>
+                    <div><h4>Oct 14, 2022</h4></div>
+                    <div><h4>NSH 13xx</h4></div>
+                    <div><h4><a href="https://www.p2q4.org/">https://www.p2q4.org/</a></h4></div>
+            <div className="table-responsive-sm">
                 <table className="table">
                     <tbody>
                         <tr>
@@ -72,8 +71,8 @@ export default function Program()
                         <tr>
                             <td>1640</td>
                             <td>1800</td>
-                            <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Cair: Harry Shum?)
-                                <br/>KaiFu Lee, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon etc</td>
+                            <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Chair: Harry Shum?)
+                                <br/>KaiFu Lee(?), Alex Waibel(?), Xuedong Huang, Hsiao Wuen Hone, Alex Acero etc</td>
                         </tr>
 
                         <tr>
@@ -87,6 +86,7 @@ export default function Program()
                 </table>
             </div>
         </div>
+    </div>
     )
 }
 		

@@ -6,6 +6,10 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.flex_container h4{
+    font-family: 'western';
+}
 .speakers
 {
     display: flex;
