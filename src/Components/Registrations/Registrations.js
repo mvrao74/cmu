@@ -14,7 +14,7 @@ export default function Registrations()
 
     const handleSubmit= (e) => { 
         // console.log(email,fname,lname,"+"+countrycode+" "+phone)
-        const no = "+"+countrycode+" "+phone
+        const no = "+"+countrycode+"-"+phone
         e.preventDefault();
         const requestOptions = {
         method: 'POST',
