@@ -71,6 +71,7 @@ export default function Registrations()
                 <div class="form-group col">
                     <label>Country Code<span>*</span></label>
                     <select class="form-control" id="exampleFormControlSelect1" required onChange={e=>setCountryCode(e.target.value)}>
+                        <option data-countrycode="US" value="1">USA (+1)</option>
                         <option data-countrycode="DZ" value="213">Algeria (+213)</option>
                         <option data-countrycode="AD" value="376">Andorra (+376)</option>
                         <option data-countrycode="AO" value="244">Angola (+244)</option>
@@ -272,7 +273,6 @@ export default function Registrations()
                         <option data-countrycode="UA" value="380">Ukraine (+380)</option>
                         <option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
                         <option data-countrycode="UY" value="598">Uruguay (+598)</option>
-                        <option data-countrycode="US" value="1">USA (+1)</option>
                         <option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
                         <option data-countrycode="VU" value="678">Vanuatu (+678)</option>
                         <option data-countrycode="VA" value="379">Vatican City (+379)</option>

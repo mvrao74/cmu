@@ -72,7 +72,7 @@ export default function Program()
                             <td>1640</td>
                             <td>1800</td>
                             <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Chair: Harry Shum?)
-                                <br/>KaiFu Lee(?), Alex Waibel(?), Xuedong Huang, Hsiao Wuen Hone, Alex Acero etc</td>
+                                <br/>KaiFu Lee(?), Alex Waibel(?), Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
                         </tr>
 
                         <tr>
