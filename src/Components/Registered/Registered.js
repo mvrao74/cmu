@@ -1,4 +1,6 @@
 import { useState,useEffect } from "react";
+import CsvDownloader from 'react-csv-downloader';
+import './Registered.css'
 import Navbar from "../Navbar/Navbar"
 
 export default function Registered()
@@ -33,6 +35,53 @@ export default function Registered()
         //     })
         }
 
+    // const downloadCSV=(e)=>
+    // {
+    //     console.log(rows)
+    //     e.preventDefault();
+        // let csvData = makeCSV(rows)
+        // console.log(csvData)
+        // const blob = new Blob([csvData]);
+        // const fileDownloadUrl = URL.createObjectURL(blob);
+        // setFileDownloadUrl(fileDownloadUrl)
+    // }
+
+    // const makeCSV =(content)=> {
+    //     let csv = '';
+    //   content.forEach(value => {
+    //       value.forEach((item, i) => {
+    //       let innerValue = item === null ? '' : item.toString();
+    //       let result = innerValue.replace(/"/g, '""');
+    //       if (result.search(/("|,|\n)/g) >= 0) {
+    //         result = '"' + result + '"'
+    //       }
+    //       if (i > 0) {csv += ','}
+    //       csv += result;
+    //     })
+    //       csv += '\n';
+    //     })
+    //   return "First Name,Last Name,Email Address,Phone Number\n"+csv
+    // }
+
+    const getCsvData = () =>
+    {
+        let data = []
+        if(rows !== [])
+        {
+            
+            const l = rows.length
+            for(let i = 0; i < rows.length; i++)
+            {
+                data.push({
+                    "First Name" : rows[i][1],
+                    "Last Name": rows[i][2],
+                    "Email Address" : rows[i][0],
+                    "Phone Number" : rows[i][3]
+                })
+            }    
+        }
+        return data
+    }
     return(
         <div className="maindiv">
             <Navbar/>
@@ -53,6 +102,18 @@ export default function Registered()
                         <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td><td>{val[3]}</td></tr>)}
                 </tbody>                
             </table>
+            <div className="download_button">
+                <div><CsvDownloader
+                    className="btn btn-secondary"
+                    filename="P2Q4_Registrations"
+                    extension=".csv"
+                    datas={getCsvData}
+                    text="Download" />
+                </div>
+            </div>
+            {/* <a download={fileNames["csv"]} href={fileDownloadUrl}>
+                <button className="btn btn-secondary" onClick={e=>downloadCSV(e)}>Export CSV</button>
+            </a> */}
             </div>
             </div>
         </div>

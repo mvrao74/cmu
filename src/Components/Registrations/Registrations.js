@@ -9,7 +9,7 @@ export default function Registrations()
     const [fname, setFname] = useState("")
     const [lname, setLname] = useState("")
     const [countrycode,setCountryCode] = useState("")
-    const [phone, setPhone] = useState("")
+    const [phone, setPhone] = useState("+1")
     let navigate = useNavigate();
 
     const handleSubmit= (e) => { 
