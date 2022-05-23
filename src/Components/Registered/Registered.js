@@ -85,6 +85,15 @@ export default function Registered()
     return(
         <div className="maindiv">
             <Navbar/>
+            <div className="download_button">
+                <div><CsvDownloader
+                    className="btn btn-secondary"
+                    filename="P2Q4_Registrations"
+                    extension=".csv"
+                    datas={getCsvData}
+                    text="Download" />
+                </div>
+            </div>
             <div className="container">
                 <br/>
             <div className="table-responsive-sm table-borderless">
@@ -102,15 +111,7 @@ export default function Registered()
                         <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td><td>{val[3]}</td></tr>)}
                 </tbody>                
             </table>
-            <div className="download_button">
-                <div><CsvDownloader
-                    className="btn btn-secondary"
-                    filename="P2Q4_Registrations"
-                    extension=".csv"
-                    datas={getCsvData}
-                    text="Download" />
-                </div>
-            </div>
+            
             {/* <a download={fileNames["csv"]} href={fileDownloadUrl}>
                 <button className="btn btn-secondary" onClick={e=>downloadCSV(e)}>Export CSV</button>
             </a> */}
