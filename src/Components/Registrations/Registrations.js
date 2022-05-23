@@ -290,7 +290,7 @@ export default function Registrations()
 
                 <div className="form-group col">
                 <label>Phone Number<span>*</span></label>
-                <input type="text" className="form-control" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required onChange={e => setPhone(e.target.value)}></input>
+                <input type="text" className="form-control" pattern="[0-9]" required onChange={e => setPhone(e.target.value)}></input>
             </div>
             </div>
             <br/>

@@ -76,15 +76,18 @@ export default function Registered()
                     "First Name" : rows[i][1],
                     "Last Name": rows[i][2],
                     "Email Address" : rows[i][0],
-                    "Phone Number" : rows[i][3]
+                    "Phone Number" : rows[i][3],
+                    "Registered Date" : rows[i][4].split(" ")[0]
                 })
             }    
         }
         return data
     }
     return(
-        <div className="maindiv">
-            <Navbar/>
+        <div >
+            <div className="maindiv">
+                <Navbar />
+            </div>
             <div className="download_button">
                 <div><CsvDownloader
                     className="btn btn-secondary"
@@ -104,11 +107,12 @@ export default function Registered()
                         <th>Last Name </th>
                         <th>Email Address</th>
                         <th>Phone Number</th>
+                        <th>Registered Date</th>
                     </tr>
                 </thead>
                 <tbody>
                      {rows.map((val,key) => 
-                        <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td><td>{val[3]}</td></tr>)}
+                        <tr key={key}><td>{val[1]}</td><td>{val[2]}</td><td>{val[0]}</td><td>{val[3]}</td><td>{val[4].split(" ")[0]}</td></tr>)}
                 </tbody>                
             </table>
             
