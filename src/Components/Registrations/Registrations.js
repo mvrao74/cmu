@@ -13,27 +13,27 @@ export default function Registrations()
     let navigate = useNavigate();
 
     const handleSubmit= (e) => { 
-        console.log(email,fname,lname,"+"+countrycode+" "+phone)
-        // const no = "+"+countrycode+" "+phone
+        // console.log(email,fname,lname,"+"+countrycode+" "+phone)
+        const no = "+"+countrycode+" "+phone
         e.preventDefault();
-        // const requestOptions = {
-        // method: 'POST',
-        // headers: { 'Content-Type': 'application/json' },
-        // body: JSON.stringify({"method" : "POST",
-        //                       "email" : email,
-        //                       "fname" : fname,
-        //                       "lname" : lname,
-        //                       "phone" : no})
-        // };
-        // fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
-        // .then(response => response.json())
-        // .then(resp => {
-        //     if(resp.statusCode == 200)
-        //     {
-        //         let path = `Acknowledgement`; 
-        //         navigate(path);
-        //     }
-        // })
+        const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({"method" : "POST",
+                              "email" : email,
+                              "fname" : fname,
+                              "lname" : lname,
+                              "phone" : no})
+        };
+        fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
+        .then(response => response.json())
+        .then(resp => {
+            if(resp.statusCode == 200)
+            {
+                let path = `Acknowledgement`; 
+                navigate(path);
+            }
+        })
     }
       
     return(
