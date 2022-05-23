@@ -8,32 +8,32 @@ export default function Registrations()
     const [email, setEmail] = useState("")
     const [fname, setFname] = useState("")
     const [lname, setLname] = useState("")
-    const [countrycode,setCountryCode] = useState("")
-    const [phone, setPhone] = useState("+1")
+    const [countrycode,setCountryCode] = useState("1")
+    const [phone, setPhone] = useState("")
     let navigate = useNavigate();
 
     const handleSubmit= (e) => { 
-        // console.log(email,fname,lname,"+"+countrycode+" "+phone)
-        const no = "+"+countrycode+"-"+phone
+        console.log(email,fname,lname,"+"+countrycode+" "+phone)
+        // const no = "+"+countrycode+" "+phone
         e.preventDefault();
-        const requestOptions = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({"method" : "POST",
-                              "email" : email,
-                              "fname" : fname,
-                              "lname" : lname,
-                              "phone" : no})
-        };
-        fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
-        .then(response => response.json())
-        .then(resp => {
-            if(resp.statusCode == 200)
-            {
-                let path = `Acknowledgement`; 
-                navigate(path);
-            }
-        })
+        // const requestOptions = {
+        // method: 'POST',
+        // headers: { 'Content-Type': 'application/json' },
+        // body: JSON.stringify({"method" : "POST",
+        //                       "email" : email,
+        //                       "fname" : fname,
+        //                       "lname" : lname,
+        //                       "phone" : no})
+        // };
+        // fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
+        // .then(response => response.json())
+        // .then(resp => {
+        //     if(resp.statusCode == 200)
+        //     {
+        //         let path = `Acknowledgement`; 
+        //         navigate(path);
+        //     }
+        // })
     }
       
     return(
@@ -70,7 +70,7 @@ export default function Registrations()
             <div className="row">
                 <div class="form-group col">
                     <label>Country Code<span>*</span></label>
-                    <select class="form-control" id="exampleFormControlSelect1" required onChange={e=>setCountryCode(e.target.value)}>
+                    <select class="form-control" id="exampleFormControlSelect1" required value="1" onChange={e=>setCountryCode(e.target.value)}>
                         <option data-countrycode="US" value="1">USA (+1)</option>
                         <option data-countrycode="DZ" value="213">Algeria (+213)</option>
                         <option data-countrycode="AD" value="376">Andorra (+376)</option>
