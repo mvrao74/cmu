@@ -14,6 +14,7 @@ export default function Registrations()
 
     const handleSubmit= (e) => { 
         // console.log(email,fname,lname,"+"+countrycode+" "+phone)
+        
         const no = "+"+countrycode+" "+phone
         e.preventDefault();
         const requestOptions = {
@@ -70,7 +71,7 @@ export default function Registrations()
             <div className="row">
                 <div class="form-group col">
                     <label>Country Code<span>*</span></label>
-                    <select class="form-control" id="exampleFormControlSelect1" required value="1" onChange={e=>setCountryCode(e.target.value)}>
+                    <select class="form-control" id="exampleFormControlSelect1" required onChange={e=>setCountryCode(e.target.value)}>
                         <option data-countrycode="US" value="1">USA (+1)</option>
                         <option data-countrycode="DZ" value="213">Algeria (+213)</option>
                         <option data-countrycode="AD" value="376">Andorra (+376)</option>
@@ -290,7 +291,7 @@ export default function Registrations()
 
                 <div className="form-group col">
                 <label>Phone Number<span>*</span></label>
-                <input type="text" className="form-control" pattern="[0-9]" required onChange={e => setPhone(e.target.value)}></input>
+                <input type="text" className="form-control" pattern="[0-9]{10}" required placeholder="Eg. 1234567890" onChange={e => setPhone(e.target.value)}></input>
             </div>
             </div>
             <br/>
