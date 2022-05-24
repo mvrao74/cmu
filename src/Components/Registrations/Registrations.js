@@ -10,13 +10,44 @@ export default function Registrations()
     const [lname, setLname] = useState("")
     const [countrycode,setCountryCode] = useState("1")
     const [phone, setPhone] = useState("")
+    const [pattern, setPattern] = useState("[0-9]{10}")
+    const [placeholder, setPlaceholder] = useState("Eg. 1234567890")
+ 
     let navigate = useNavigate();
 
-    const handleSubmit= (e) => { 
-        // console.log(email,fname,lname,"+"+countrycode+" "+phone)
-        
-        const no = "+"+countrycode+" "+phone
+    const handlePhoneNo = (e) =>
+    {
         e.preventDefault();
+        let ccode = e.target.value
+        // let x = document.getElementById("phoneNo")
+        // console.log(ccode)
+        // let a = ccode.localeCompare("1"),b = ccode.localeCompare("91")
+        // let a = ccode === "1",b = ccode === "91"
+        // console.log(a,b)
+        // console.log(a != 0 || b != 0)
+        if(ccode === "1" || ccode === "91")
+        {
+            // console.log("India and US")
+            // x.setAttribute("pattern", "[[0-9]{10}")
+            // x.setAttribute("placeholder","Eg. 1234567890")
+            setPattern("[0-9]{10}")
+            setPlaceholder("Eg. 1234567890")
+        }
+        else
+        {
+            // console.log("Foriegn")
+            // x.setAttribute("pattern", "[0-9]+")
+            // x.setAttribute("placeholder","")
+            setPattern("[0-9]+")
+            setPlaceholder("")
+        }
+        setCountryCode(e.target.value)
+    }
+
+    const handleSubmit= (e) => { 
+        console.log(email,fname,lname,"+"+countrycode+" "+phone)
+        e.preventDefault();
+        const no = "+"+countrycode+" "+phone
         const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -71,7 +102,7 @@ export default function Registrations()
             <div className="row">
                 <div class="form-group col">
                     <label>Country Code<span>*</span></label>
-                    <select class="form-control" id="exampleFormControlSelect1" required onChange={e=>setCountryCode(e.target.value)}>
+                    <select class="form-control" id="exampleFormControlSelect1" required onChange={e=> handlePhoneNo(e)}>
                         <option data-countrycode="US" value="1">USA (+1)</option>
                         <option data-countrycode="DZ" value="213">Algeria (+213)</option>
                         <option data-countrycode="AD" value="376">Andorra (+376)</option>
@@ -291,7 +322,7 @@ export default function Registrations()
 
                 <div className="form-group col">
                 <label>Phone Number<span>*</span></label>
-                <input type="text" className="form-control" pattern="[0-9]{10}" required placeholder="Eg. 1234567890" onChange={e => setPhone(e.target.value)}></input>
+                <input type="text" id="phoneNo" className="form-control" required  pattern={pattern} placeholder={placeholder} onChange={e => setPhone(e.target.value)}></input>
             </div>
             </div>
             <br/>
