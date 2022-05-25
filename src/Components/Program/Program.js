@@ -80,7 +80,7 @@ export default function Program()
                             <td>2100</td>
                             <td>Reception and Dinner	Perlis Atrium (Chair: Reddy)<br/>
                                 Comments by President, Provost and SCS Dean<br/>
-                                DARPA’s Impact – Vint Cerf</td>
+                                DARPA’s Impact – Vint Cerf, Bill Scherlis, Peter Highnam(?)</td>
                         </tr>
                     </tbody>
                 </table>
