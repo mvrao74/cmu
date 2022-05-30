@@ -34,8 +34,8 @@ export default function Program()
                                 <div>Lesser Jack Mostow</div>
                                 <div></div>
                             </div> */}
-                            Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lesser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jim Baker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Janet Baker<br/>
-                            Mark Fox&nbsp;&nbsp;&nbsp;Jack Mostow(?)&nbsp;&nbsp;Henry Goldberg(?)</td>
+                            Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lesser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jim Baker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Janet Baker<br/>
+                            Mark Fox&nbsp;&nbsp;&nbsp;Jack Mostow(?)&nbsp;&nbsp;Henry Goldberg(?)&nbsp;&nbsp;&nbsp;Fil Alleva(?)</td>
                         </tr>
 
                         <tr>
