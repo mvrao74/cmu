@@ -18,7 +18,7 @@ export default function Program()
                             <td>0900</td>
                             <td>1000</td>
                             <td>Introduction DARPA and Creation of SUS Program (Chair: Reddy) <br/>
-                            Cordell Green (?), Steve Crocker, Allen Sears(?), and Charles Wayne (?)</td>
+                            Cordell Green (?), Steve Crocker, Allen Sears, and Charles Wayne (?)</td>
                         </tr>
                         <tr>
                             <td>1000</td>
@@ -28,7 +28,7 @@ export default function Program()
                         <tr>
                             <td>1020</td>
                             <td>1220</td>
-                            <td>Recollections of Early Pioneers: 1970s (Chair: Roni Rosenfeld)<br/>
+                            <td>Recollections of Early Pioneers: 1970s (Chair: Reddy)<br/>
                             {/* <div className="speakers">
                                 <div>Erman Mark Fox</div>
                                 <div>Lesser Jack Mostow</div>
@@ -71,14 +71,14 @@ export default function Program()
                         <tr>
                             <td>1640</td>
                             <td>1800</td>
-                            <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Chair: Harry Shum?)
+                            <td>Panel Discussion:  Industrial Impact of CMU Speech Group (Chair: Roni Rosenfeld)
                                 <br/>KaiFu Lee(?), Alex Waibel(?), Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
                         </tr>
 
                         <tr>
                             <td>1800</td>
                             <td>2100</td>
-                            <td>Reception and Dinner	Perlis Atrium (Chair: Reddy)<br/>
+                            <td>Reception and Dinner	Perlis Atrium (Chair: Harry Shum)<br/>
                                 Comments by President, Provost and SCS Dean<br/>
                                 DARPA’s Impact – Vint Cerf, Bill Scherlis, Peter Highnam(?)</td>
                         </tr>
