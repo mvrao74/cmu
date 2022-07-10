@@ -9,7 +9,7 @@ export default function Program()
             <div className="flex_container">
                     <div><h4>Tentative P2Q4 Symposium Program</h4></div>
                     <div><h4>Oct 14, 2022</h4></div>
-                    <div><h4>NSH 13xx</h4></div>
+                    <div><h4>NSH 4305(?)</h4></div>
                     <div><h4><a href="https://www.p2q4.org/">https://www.p2q4.org/</a></h4></div>
             <div className="table-responsive-sm">
                 <table className="table">
