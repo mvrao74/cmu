@@ -15,23 +15,23 @@ export default function Program()
                     <tbody>
                         <tr>
                             <td>0900</td>
-                            <td>1000</td>
-                            <td>NSH 4305<br/>
+                            <td>0945</td>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Introduction DARPA and Creation of SUS Program (Chair: Roni Rosenfeld) <br/>
                             Cordell Green (?), Steve Crocker, Allen Sears, and Charles Wayne (?)</td>
                         </tr>
                         <tr>
-                            <td>1000</td>
-                            <td>1020</td>
-                            <td>NSH 4305<br/>
+                            <td>0945</td>
+                            <td>1015</td>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Coffee Break</td>
                         </tr>
                         <tr>
-                            <td>1020</td>
-                            <td>1220</td>
-                            <td>NSH 4305<br/>
+                            <td>1015</td>
+                            <td>1200</td>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Recollections of Early Pioneers: 1970s (Chair: Reddy)<br/>
                             {/* <div className="speakers">
@@ -46,7 +46,7 @@ export default function Program()
                         <tr>
                             <td>1200</td>
                             <td>1300</td>
-                            <td>NSH 4305<br/>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Lunch</td>
                         </tr>
@@ -54,7 +54,7 @@ export default function Program()
                         <tr>
                             <td>1300</td>
                             <td>1430</td>
-                            <td>NSH 4305<br/>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Recollections of CMU Speech Group: 1980s (Chair: Rich Stern)<br/>
                                 Stern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rudnicky&nbsp;&nbsp;&nbsp;&nbsp;Roni Rosenfeld<br/>
@@ -65,7 +65,7 @@ export default function Program()
                         <tr>
                             <td>1430</td>
                             <td>1600</td>
-                            <td>NSH 4305<br/>
+                            <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
                                 <br/>
