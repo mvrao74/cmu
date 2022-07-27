@@ -96,7 +96,7 @@ export default function Program()
                             <td>2100</td>
                             <td>Perlis Atrium<br/>
                                 Newell-Simon Hall</td>
-                            <td>Reception and Dinner (Chair: Reddy)<br/>
+                            <td>Reception and Dinner (Chair: Rosenfeld)<br/>
                                 Comments by President, Provost and SCS Dean<br/>
                                 DARPA’s Impact – Vint Cerf, Bill Scherlis, Peter Highnam(?)</td>
                         </tr>
