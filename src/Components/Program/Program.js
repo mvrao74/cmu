@@ -18,7 +18,7 @@ export default function Program()
                             <td>0945</td>
                             <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
-                            <td>Introduction DARPA and Creation of SUS Program (Chair: Roni Rosenfeld) <br/>
+                            <td>Introduction DARPA and Creation of SUS Program (Chair: Raj Reddy) <br/>
                             Cordell Green (?), Steve Crocker, Allen Sears, and Charles Wayne (?)</td>
                         </tr>
                         <tr>
