@@ -19,7 +19,7 @@ export default function Program()
                             <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Introduction DARPA and Creation of SUS Program (Chair: Raj Reddy) <br/>
-                            Cordell Green (?), Steve Crocker, Allen Sears, and Charles Wayne (?)</td>
+                            Steve Crocker, Allen Sears, ???</td>
                         </tr>
                         <tr>
                             <td>0945</td>
@@ -34,13 +34,7 @@ export default function Program()
                             <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Recollections of Early Pioneers: 1970s (Chair: Reddy)<br/>
-                            {/* <div className="speakers">
-                                <div>Erman Mark Fox</div>
-                                <div>Lesser Jack Mostow</div>
-                                <div></div>
-                            </div> */}
-                            Erman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lesser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jim Baker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Janet Baker<br/>
-                            Mark Fox&nbsp;&nbsp;&nbsp;Jack Mostow(?)&nbsp;&nbsp;Henry Goldberg(?)&nbsp;&nbsp;&nbsp;Fil Alleva(?)</td>
+                            Lee Erman,   Victor Lesser,   Rick Roth,   Jim Baker,   Janet Baker,   Mark Fox,   Jack Mostow(?),   Henry Goldberg(?),   Fil Alleva(?)</td>
                         </tr>
 
                         <tr>
