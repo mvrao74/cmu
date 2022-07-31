@@ -82,7 +82,7 @@ export default function Program()
                                 Gates and Hillman Centers</td>
                             <td>Raj Reddy AI Lecture and Panel Discussion<br/>
                                 Impact of CMU Speech Group (Chair: Harry Shum)
-                                <br/>KaiFu Lee(?), Alex Waibel(?), Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
+                                <br/>KaiFu Lee(?), Alex Waibel(?), Bakers, Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
                         </tr>
 
                         <tr>
