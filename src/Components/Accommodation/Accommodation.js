@@ -20,16 +20,6 @@ export default function Accommodation()
                             <th>Contact</th>
                         </tr>
                         <tr>
-                            <td>The Oaklander Hotel</td>
-                            <td>5130 Bigelow Boulevard</td>
-                            <td>King $259.00</td>
-                            <td>NO</td>
-                            <td>$38.00</td>
-                            <td>September 14</td>
-                            <td> Becky Faris <br/>Becky.Faris@concordhotels.com<br/>
-                                412-297-4072</td>
-                        </tr>
-                        <tr>
                             <td>Residence Inn</td>
                             <td>3341 Forbes Avenue</td>
                             <td>$169.00</td>
