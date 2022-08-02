@@ -24,6 +24,9 @@ export default function Navbar(){
                     </li><li class="nav-item">
                         <a class="nav-link" href="/Program">Program</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Accommodation">Accommodation</a>
+                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="/Registrations">Registration</a>
                     </li>

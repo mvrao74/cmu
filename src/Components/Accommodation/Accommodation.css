@@ -1,0 +1,21 @@
+.flex_container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.flex_container div h4{
+    font-family: Arial;
+}
+
+.flex_container h4{
+    font-family: 'western';
+}
+.speakers
+{
+    display: flex;
+    justify-content: space-evenly;
+}

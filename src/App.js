@@ -6,6 +6,7 @@ import Historical_Documents from "./Components/Historical_Documents/Historical_D
 import Registrations from "./Components/Registrations/Registrations";
 import Registered from "./Components/Registered/Registered";
 import Acknowledgement from "./Components/Acknowledgement/Acknowledgement";
+import Accommodation from "./Components/Accommodation/Accommodation";
 import sur from './Files/SUR.pdf'
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
       { path: "/Program", element: <Program /> },
       { path: "/Historical_Documents", element: <Historical_Documents /> },
       { path: "/Registrations", element: <Registrations /> },
+      { path: "/Accommodation", element: <Accommodation />},
       { path : "/Registered", element: <Registered/>},
       { path : "/Registrations/Acknowledgement", element: <Acknowledgement/>},
       {path : "/SUR.pdf", element : {sur}}
