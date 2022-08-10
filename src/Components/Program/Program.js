@@ -51,9 +51,7 @@ export default function Program()
                             <td>NSH 3305<br/>
                                 Newell-Simon Hall</td>
                             <td>Recollections of CMU Speech Group: 1980s (Chair: Rich Stern)<br/>
-                                Stern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rudnicky&nbsp;&nbsp;&nbsp;&nbsp;Roni Rosenfeld<br/>
-                                Bisiani&nbsp;&nbsp;&nbsp;Cole&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ward<br/>
-                                xxx	xxx	xxx	</td>
+                                Stern, Bisiani, Hon, Ward, Waibel, Rosenfeld, B.Raj</td>
                         </tr>
 
                         <tr>
