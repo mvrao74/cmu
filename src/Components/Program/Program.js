@@ -82,16 +82,6 @@ export default function Program()
                                 Impact of CMU Speech Group (Chair: Harry Shum)
                                 <br/>Janet Baker, Jim Baker, KaiFu Lee(?), Alex Waibel, Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
                         </tr>
-
-                        <tr>
-                            <td>1830</td>
-                            <td>2130</td>
-                            <td>Perlis Atrium<br/>
-                                Newell-Simon Hall</td>
-                            <td>Reception and Dinner (Chair: Rosenfeld)<br/>
-                                Comments by President, Provost and SCS Dean<br/>
-                                DARPA’s Impact – Vint Cerf, Bill Scherlis, Peter Highnam(?)</td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
