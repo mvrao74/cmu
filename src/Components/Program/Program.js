@@ -61,8 +61,7 @@ export default function Program()
                                 Newell-Simon Hall</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
                                 <br/>
-                                xxx	xxx	xxx	<br/>
-                                xxx	xxx	xxx	</td>
+                                Lin Chase, Jahanzeb Shirwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Matt Marge(?), Michael Finke(?)</td>
                         </tr>
 
                         <tr>
