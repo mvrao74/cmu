@@ -19,7 +19,7 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Introduction DARPA and Creation of SUS Program (Chair: Raj Reddy) <br/>
-                            Steve Crocker, Allen Sears, ???</td>
+                            Steve Crocker, Allen Sears</td>
                         </tr>
                         <tr>
                             <td>0945</td>
@@ -34,7 +34,7 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Recollections of Early Pioneers: 1970s (Chair: Reddy)<br/>
-                            Lee Erman,   Victor Lesser,   Rick Roth,   Jim Baker,   Janet Baker,   Mark Fox,   Jack Mostow(?),   Henry Goldberg(?),   Fil Alleva(?)</td>
+                            Lee Erman, Victor Lesser, Rick Roth, Jim Baker, Janet Baker, Mark Fox, Jack Mostow, Fil Alleva</td>
                         </tr>
 
                         <tr>
@@ -51,7 +51,7 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech Group: 1980s (Chair: Rich Stern)<br/>
-                                Stern, Cole, Ward, Waibel, Bisiani, Hon, Rosenfeld, B.Raj</td>
+                                Richard Stern, Ronald Cole, Wayne Ward, Alex Waibel, Roberto Bisiani, Hsiao-Wuen Hon, Roni Rosenfeld, Bhiksha Raj</td>
                         </tr>
 
                         <tr>
@@ -61,7 +61,7 @@ export default function Program()
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
                                 <br/>
-                                Lin Chase, Jahanzeb Shirwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Matt Marge(?), Michael Finke(?), Tanya Schultz (?)</td>
+                                Lin Chase, Jahanzeb Shirwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Michael Finke, Tanja Schultz</td>
                         </tr>
 
                         <tr>
@@ -78,8 +78,8 @@ export default function Program()
                             <td>Rashid Auditorium<br/>
                                 Gates and Hillman Centers</td>
                             <td>Raj Reddy AI Lecture and Panel Discussion<br/>
-                                Impact of CMU Speech Group (Chair: Harry Shum/Raj Reddy)
-                                <br/>Janet Baker, Jim Baker, KaiFu Lee(?), Alex Waibel, Xuedong Huang, Hsiao Wuen Hon, Alex Acero etc</td>
+                                Impact of CMU Speech Group (Chair: Harry Shum by Zoom/Raj Reddy)
+                                <br/>Janet Baker, Jim Baker, KaiFu Lee by Zoom, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon, Alex Acero</td>
                         </tr>
                     </tbody>
                 </table>
