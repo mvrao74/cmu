@@ -78,7 +78,7 @@ export default function Program()
                             <td>Rashid Auditorium<br/>
                                 Gates and Hillman Centers</td>
                             <td>Raj Reddy AI Lecture and Panel Discussion<br/>
-                                Impact of CMU Speech Group (Chair: Harry Shum by Zoom/Raj Reddy)
+                                Impact of CMU Speech Group (Chair: Harry Shum and Hsiao Wuen Hon)
                                 <br/>Janet Baker, Jim Baker, KaiFu Lee by Zoom, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon, Alex Acero</td>
                         </tr>
                     </tbody>
