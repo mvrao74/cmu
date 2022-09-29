@@ -79,7 +79,7 @@ export default function Program()
                                 Gates and Hillman Centers</td>
                             <td>Raj Reddy AI Lecture and Panel Discussion<br/>
                                 Impact of CMU Speech Group (Chair: Harry Shum and Hsiao Wuen Hon)
-                                <br/>Janet Baker, Jim Baker, KaiFu Lee by Zoom, Alex Waibel, Xuedong Huang, Hsiao Wuen Hon, Alex Acero</td>
+                                <br/>Janet Baker, Jim Baker, KaiFu Lee by Zoom, Alex Waibel, Xuedong Huang, Alex Acero</td>
                         </tr>
                     </tbody>
                 </table>
