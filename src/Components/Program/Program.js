@@ -10,6 +10,7 @@ export default function Program()
                     <div><h4>Tentative P2Q4 Symposium Program</h4></div>
                     <div><h4>Oct 14, 2022</h4></div>
                     <div><h4><a href="https://www.p2q4.org/">https://www.p2q4.org/</a></h4></div>
+                    <div><h4><a href="https://cmu.zoom.us/j/94924923595?pwd=RFZaVWRXbVN1T2wxNk9WeHhKK01KZz09">Join via zoom</a></h4></div>
             <div className="table-responsive-sm">
                 <table className="table">
                     <tbody>
