@@ -62,7 +62,7 @@ export default function Program()
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
                                 <br/>
-                                Lin Chase, Jahanzeb Sherwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Michael Finke, Tanja Schultz, Florian Metze, Matt Marge</td>
+                                Lin Chase, Jahanzeb Sherwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Michael Finke, Tanja Schultz, Florian Metze, Matt Marge, Paul Constantinides</td>
                         </tr>
 
                         <tr>
