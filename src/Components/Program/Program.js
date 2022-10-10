@@ -52,7 +52,7 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech Group: 1980s (Chair: Richard Stern)<br/>
-                                Richard Stern, Ronald Cole, Wayne Ward, Alex Waibel, Roberto Bisiani, Hsiao-Wuen Hon, Roni Rosenfeld, Alex Acero,Bhiksha Raj</td>
+                                Richard Stern, Ronald Cole, Wayne Ward, Alex Waibel, Roberto Bisiani, Hsiao-Wuen Hon, Roni Rosenfeld, Alex Acero, Bhiksha Raj</td>
                         </tr>
 
                         <tr>
