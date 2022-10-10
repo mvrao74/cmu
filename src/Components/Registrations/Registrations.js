@@ -74,8 +74,8 @@ export default function Registrations()
             <div className="flex_container" style={{fontFamily : 'western'}}>
                 <div><h4>P2Q4 Symposium</h4></div>
             </div>
-            <div className = "form-bg">
-
+            <div className = "flex_container" style={{fontFamily : 'western'}}>
+                <div><h6><br/>We appreciate your interest in this event, but unfortunately registration is full and we are unable to accommodate any additional guests.</h6></div>
             {/* <form className='form'onSubmit={e => {handleSubmit(e)}}>
             <br></br>
             
