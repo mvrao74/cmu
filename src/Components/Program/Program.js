@@ -52,7 +52,7 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech Group: 1980s (Chair: Richard Stern)<br/>
-                                Richard Stern, Ronald Cole, Wayne Ward, Alex Waibel, Roberto Bisiani, Hsiao-Wuen Hon, Roni Rosenfeld, Alex Acero, Bhiksha Raj</td>
+                                Richard Stern, Ronald Cole, Hsiao-Wuen Hon, Wayne Ward, Roni Rosenfeld, Roberto Bisiani, Alex Waibel, Alex Acero, Bhiksha Raj</td>
                         </tr>
 
                         <tr>
@@ -62,7 +62,7 @@ export default function Program()
                                 Gates and Hillman Centers</td>
                             <td>Recollections of CMU Speech:1990s and beyond (Chair: Alex Rudnicky)
                                 <br/>
-                                Lin Chase, Jahanzeb Sherwani, Agha Ali Raza, Dan Bohus, Rita Singh, Zhou Yu, Michael Finke, Tanja Schultz, Florian Metze, Matt Marge, Paul Constantinides</td>
+                                Lin Chase, Florian Metze, Rita Singh, Jahanzeb Sherwani, Dan Bohus, Paul Constantinides, Matt Marge, Zhou yu</td>
                         </tr>
 
                         <tr>
