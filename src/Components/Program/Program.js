@@ -83,6 +83,13 @@ export default function Program()
                                 Impact of CMU Speech Group (Chair: Harry Shum and Hsiao Wuen Hon)
                                 <br/>Janet Baker, Jim Baker, KaiFu Lee by Zoom, Alex Waibel, Xuedong Huang, Alex Acero</td>
                         </tr>
+                        <tr>
+                            <td>1830</td>
+                            <td>2100</td>
+                            <td>Perlis Atrium<br/>
+                                Newell Simon Hall</td>
+                            <td>Reception and Dinner</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
