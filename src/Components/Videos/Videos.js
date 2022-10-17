@@ -52,6 +52,11 @@ export default function Videos()
                                     <td><h4>Voice mail</h4></td>
                                     <td><h4><a href="https://youtu.be/1R9cK69f4uQ" target={"_blank"}>Click here for the video</a></h4></td>
                                 </tr>
+                                <tr>
+                                    <td><h4>-</h4></td>
+                                    <td><h4>Speech Spectrogram</h4></td>
+                                    <td><h4><a href="https://youtu.be/RdXs6elVWLM" target={"_blank"}>Click here for the video</a></h4></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
