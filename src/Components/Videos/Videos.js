@@ -57,6 +57,16 @@ export default function Videos()
                                     <td><h4>Speech Spectrogram</h4></td>
                                     <td><h4><a href="https://youtu.be/RdXs6elVWLM" target={"_blank"}>Click here for the video</a></h4></td>
                                 </tr>
+                                <tr>
+                                    <td><h4>2022</h4></td>
+                                    <td><h4>Recollections of CMU Speech Group: 1980s </h4></td>
+                                    <td><h4><a href="https://drive.google.com/file/d/1f6nGQZH9hOnlNeoOn-WXntGLgeWliAiU/view?usp=share_link" target={"_blank"}>Click here for the video</a></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>2022</h4></td>
+                                    <td><h4>Recollections of CMU Speech Group: 1990s and beyond </h4></td>
+                                    <td><h4><a href="https://drive.google.com/file/d/1YlNyynUw7qPTjaBEcobZojTCEVJ5GKYc/view?usp=share_link" target={"_blank"}>Click here for the video</a></h4></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
