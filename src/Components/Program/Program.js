@@ -102,7 +102,7 @@ export default function Program()
                             <td>1830</td>
                             <td>Rashid Auditorium<br/>
                                 Gates and Hillman Centers</td>
-                            <td>Raj Reddy AI Lecture and Panel Discussion<br/>
+                                <td>Raj Reddy AI Lecture and Panel Discussion<br/>
                                 Impact of CMU Speech Group (Chair: Harry Shum and Hsiao Wuen Hon)
                                 <br/><a href="https://drive.google.com/file/d/1uDtLcGElp-fUN2TuDLefgxr9YqZD05_s/view?usp=share_link">Janet Baker</a>, 
                                 <a href="https://drive.google.com/file/d/1MBp8jjutHPxuTRgxjODElmXRvV8IY9pw/view?usp=share_link">Jim Baker</a>,
@@ -116,7 +116,12 @@ export default function Program()
                             <td>2100</td>
                             <td>Perlis Atrium<br/>
                                 Newell Simon Hall</td>
-                            <td>Reception and Dinner</td>
+                            <td>Reception and Dinner
+                            <br/><a href="https://drive.google.com/file/d/16jDu7ngNMmXMBwKImmFEYtDxs53ujmc9/view?usp=share_link"> Farnam Jahanian</a>, 
+                                <a href="https://drive.google.com/file/d/1mm8eGFlUx9Ir0_3XoiEmDcicEEANAh4j/view?usp=share_link">Martial Hebert</a>,
+                                <a href="https://drive.google.com/file/d/1mW05UHmwZx8yIrj2tdp0TWVgx-qAzZuM/view?usp=share_link">William Scherlis</a>, 
+                                <a href="https://drive.google.com/file/d/1-0evbsDNRCNkhbO0_gmCf3wrIUiuA9nN/view?usp=share_link">Vint Cerf</a>, 
+                                <a href="https://drive.google.com/file/d/1NNpbWxpWcajZN61HpVZ3Qiv1MoTds8Xn/view?usp=share_link">Raj Reddy</a></td>
                         </tr>
                     </tbody>
                 </table>
