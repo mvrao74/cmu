@@ -20,7 +20,7 @@ export default function Navbar(){
                     <li class="nav-item">
                         <a class="nav-link" href="/Videos">Videos</a>
                     </li><li class="nav-item">
-                        <a class="nav-link" href="/Historical_Documents">Historical Documents</a>
+                        <a class="nav-link" href="/Historical_Documents">Documents</a>
                     </li><li class="nav-item">
                         <a class="nav-link" href="/Program">Program</a>
                     </li>

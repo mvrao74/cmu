@@ -19,3 +19,11 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.flex-links {
+  width: 520px;  
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
