@@ -40,7 +40,7 @@ export default function Program()
                             <td>Recollections of Early Pioneers: 1970s (Chair: Reddy)<br/>
                              <a href="https://drive.google.com/file/d/1zg3edTv9fvz5-m85GPB4A-R2XKl9KCfM/view?usp=share_link">Lee Erman</a>, 
                              <a href="https://drive.google.com/file/d/1pW8LngGr5R5kPhVqPmW49xvoXqTgHPW5/view?usp=share_link">&nbsp; Victor Lesser</a>, 
-                             <a href="https://drive.google.com/drive/u/1/folders/1PiYinuNGL9TTGWWs2rIt7X5zQjvzLw8N">&nbsp; Rick Roth</a>, 
+                             <a href="https://drive.google.com/file/d/1xJYq_cXgEdwtfu8ptH2f4ek4Lizf7a7i/view?usp=share_link">&nbsp; Rick Roth</a>, 
                              <a href="https://drive.google.com/file/d/1qSikLKXfWH6w0PXTkeelI8UMR0-Izenz/view?usp=share_link">&nbsp; Jim Baker</a>, 
                              <a href="https://drive.google.com/file/d/1ifPXqVWNtszdg1K9AdlMQESCTEtB3psz/view?usp=share_link">&nbsp; Janet Baker</a>, 
                              <a href="https://drive.google.com/file/d/143oS7DbBnX2C96wK7aKKgoGTIduH4ySZ/view?usp=share_link">&nbsp; Mark Fox</a>, 
