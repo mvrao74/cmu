@@ -15,58 +15,58 @@ export default function Registrations()
  
     let navigate = useNavigate();
 
-    // const handlePhoneNo = (e) =>
-    // {
-    //     e.preventDefault();
-    //     let ccode = e.target.value
-    //     // let x = document.getElementById("phoneNo")
-    //     // console.log(ccode)
-    //     // let a = ccode.localeCompare("1"),b = ccode.localeCompare("91")
-    //     // let a = ccode === "1",b = ccode === "91"
-    //     // console.log(a,b)
-    //     // console.log(a != 0 || b != 0)
-    //     if(ccode === "1" || ccode === "91")
-    //     {
-    //         // console.log("India and US")
-    //         // x.setAttribute("pattern", "[[0-9]{10}")
-    //         // x.setAttribute("placeholder","Eg. 1234567890")
-    //         setPattern("[0-9]{10}")
-    //         setPlaceholder("Eg. 1234567890")
-    //     }
-    //     else
-    //     {
-    //         // console.log("Foriegn")
-    //         // x.setAttribute("pattern", "[0-9]+")
-    //         // x.setAttribute("placeholder","")
-    //         setPattern("[0-9]+")
-    //         setPlaceholder("")
-    //     }
-    //     setCountryCode(e.target.value)
-    // }
+    const handlePhoneNo = (e) =>
+    {
+        e.preventDefault();
+        let ccode = e.target.value
+        // let x = document.getElementById("phoneNo")
+        // console.log(ccode)
+        // let a = ccode.localeCompare("1"),b = ccode.localeCompare("91")
+        // let a = ccode === "1",b = ccode === "91"
+        // console.log(a,b)
+        // console.log(a != 0 || b != 0)
+        if(ccode === "1" || ccode === "91")
+        {
+            // console.log("India and US")
+            // x.setAttribute("pattern", "[[0-9]{10}")
+            // x.setAttribute("placeholder","Eg. 1234567890")
+            setPattern("[0-9]{10}")
+            setPlaceholder("Eg. 1234567890")
+        }
+        else
+        {
+            // console.log("Foriegn")
+            // x.setAttribute("pattern", "[0-9]+")
+            // x.setAttribute("placeholder","")
+            setPattern("[0-9]+")
+            setPlaceholder("")
+        }
+        setCountryCode(e.target.value)
+    }
 
-    // const handleSubmit= (e) => { 
-    //     console.log(email,fname,lname,"+"+countrycode+" "+phone)
-    //     e.preventDefault();
-    //     const no = "+"+countrycode+" "+phone
-    //     const requestOptions = {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({"method" : "POST",
-    //                           "email" : email,
-    //                           "fname" : fname,
-    //                           "lname" : lname,
-    //                           "phone" : no})
-    //     };
-    //     fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
-    //     .then(response => response.json())
-    //     .then(resp => {
-    //         if(resp.statusCode == 200)
-    //         {
-    //             let path = `Acknowledgement`; 
-    //             navigate(path);
-    //         }
-    //     })
-    // }
+    const handleSubmit= (e) => { 
+        console.log(email,fname,lname,"+"+countrycode+" "+phone)
+        e.preventDefault();
+        const no = "+"+countrycode+" "+phone
+        const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({"method" : "POST",
+                              "email" : email,
+                              "fname" : fname,
+                              "lname" : lname,
+                              "phone" : no})
+        };
+        fetch('https://f7jw5u68dg.execute-api.ap-south-1.amazonaws.com/stage1/', requestOptions)
+        .then(response => response.json())
+        .then(resp => {
+            if(resp.statusCode == 200)
+            {
+                let path = `Acknowledgement`; 
+                navigate(path);
+            }
+        })
+    }
       
     return(
         <div className="maindiv">
@@ -75,8 +75,7 @@ export default function Registrations()
                 <div><h4>P2Q4 Symposium</h4></div>
             </div>
             <div className = "flex_container" style={{fontFamily : 'western'}}>
-                <div><h6><br/>We appreciate your interest in this event, but unfortunately registration is full and we are unable to accommodate any additional guests.</h6></div>
-            {/* <form className='form'onSubmit={e => {handleSubmit(e)}}>
+            <form className='form'onSubmit={e => {handleSubmit(e)}}>
             <br></br>
             
         
@@ -331,7 +330,7 @@ export default function Registrations()
             <button type="submit" className="btn btn-secondary">Register</button>
             </div> 
             <label>Fields marked with * are mandatory.</label>   
-            </form> */}
+            </form>
     </div>
         </div>
     )
