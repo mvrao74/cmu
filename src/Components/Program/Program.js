@@ -23,7 +23,8 @@ export default function Program()
                             <td>GHC 4405<br/>
                                 Gates and Hillman Centers</td>
                             <td>Introduction DARPA and Creation of SUS Program (Chair: Raj Reddy) <br/>
-                            <a href="https://drive.google.com/file/d/1slYt01rDjg5XB3O0AbJzI599rPpzg2cN/view?usp=share_link">Steve Crocker</a>, &nbsp; Allen Sears</td>
+                            <a href="https://drive.google.com/file/d/1slYt01rDjg5XB3O0AbJzI599rPpzg2cN/view?usp=share_link">Steve Crocker</a>,
+                            <a href="https://drive.google.com/file/d/1djo6VAZUDRYInIyK3my18oauxC6ekjPX/view?usp=share_link">&nbsp; Allen Sears</a></td>
                         </tr>
                         <tr>
                             <td>0945</td>
